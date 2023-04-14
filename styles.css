@@ -1,0 +1,80 @@
+:root {
+    /* Font */
+    --poppins: 'Poppins'; /* 400, 700 */
+    --ptSerif: 'PT Serif'; /* 700 */
+    /* Color */
+    --back: #fafafa;
+    --white: #FFF;
+    --black: #000;
+    --footer: #a9a9a9;
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-size: 15px;
+    background-color: var(--back);
+    color: var(--black);
+}
+h1 {
+    font-family: var(--ptSerif);
+    font-size: 50px;
+    font-weight: 700;
+}
+.Text {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 700;
+}
+p {
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.Sub-Text {
+    margin-top: 25px;
+    padding-right: 80px;
+}
+img {
+    width: 150px;
+}
+figcaption {
+    font-weight: 400;
+    font-size: 10px;
+}
+figcaption, h3 {
+    /* transform: rotate(90deg); */
+    /* margin-left: 30px; */
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+.Collage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.SCol {
+    margin-top: 120px;
+}
+figure {
+    margin-bottom: 50px;
+}
+h3 {
+    margin-top: 5px;
+}
+.footer {
+    color: var(--footer);
+    font-size: 10px;
+    margin: 10px;
+    text-align: center;
+}
