@@ -78,3 +78,60 @@ h3 {
     margin: 10px;
     text-align: center;
 }
+.dFCol, .dSCol, .dTCol {
+    display: hidden;
+}
+
+@media only screen and (min-width: 1024px) {
+    .FCol {
+        display: none;
+    }
+    .SCol {
+        display: none;
+    }
+    .Container {
+        padding: 0px 150px;
+    }
+    .Text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        /* margin-right: 100px; */
+    }
+    .Sub-Text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        /* padding-left: 100px; */
+        /* align-items: center; */
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .dFCol, .dSCol, .dTCol {
+        display: block;
+    }
+    .Wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 130px;
+        margin-top: 60px;
+    }
+    .dSCol {
+        margin-top: 80px;
+    }
+    img {
+        width: 200px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    }
+    figure {
+        margin-bottom: 80px;
+    }
+}
