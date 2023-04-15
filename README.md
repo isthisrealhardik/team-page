@@ -28,9 +28,9 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
+<!-- - [Features](#features) -->
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+<!-- - [Acknowledgements](#acknowledgements) -->
 
 <!-- OVERVIEW -->
 
@@ -57,7 +57,7 @@ HTML
 CSS 
 React
 
-## Features
+<!-- ## Features -->
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
@@ -70,7 +70,7 @@ React
 <!-- 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked) --> -->
+- [Marked - a markdown parser](https://github.com/chjj/marked) --> 
 
 ## Contact
 
